@@ -9,7 +9,6 @@ time as further work is being done with designing the features I wish to include
 The things listed below are features my distro cannot go without.
 - [ ] as small as possible
 - [ ] apt support
-- [ ] DHCP
 # Requirements
 This is the section that goes into more detail about how each feature required is going to get accomplished.
 ### as small as possible
@@ -17,6 +16,3 @@ I want to make sure the footprint of the distro is as small as possible, while i
 ### apt support
 apt has several dependencies, therefore I will need to build them and make sure they work correctly to use apt as my package manager of
 choice
-### networking ability
-The LFS tutorial has a static networking ability possible, and BLFS discusses how to enable DHCP. I will follow the BLFS tutorial, therefore I will
-be able to repeat the same configuration on a distro tailor-made for my support
