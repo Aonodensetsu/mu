@@ -24,23 +24,5 @@ choice
 I want to make sure lower-bit software is able to be used in my distro for compatibility reasons. I will make sure to include multilib for this purpose.
 ### raspberry pi
 At first, the distro will be made for a regular PC, to be able to test it in a virtual machine with no architecture emulation, however the final target is a Pi, so I will create exactly the same system for the aarch64 afterwards.
-# Dependency list
-apt
-- adduser
-- gpgv
-- gpgv2
-- gpgv1
-- libapt-pkg6.0 (>= 2.2.4)
-- debian-archive-keyring
-- libc6 (>= 2.17)
-- libgcc-s1 (>= 3.0)
-- libgnutls30 (>= 3.7.0)
-- libseccomp2 (>= 2.4.2)
-- libstdc++6 (>= 9)
-- libsystemd0
-
-bash
-- (Pre) libc6 (>= 2.25)
-- (Pre) libtinfo6 (>= 6)
-- base-files (>= 2.1.12)
-- debianutils (>= 2.15)
+# Packages I want
+apt, bash, dhcpcd, wget
