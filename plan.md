@@ -1,6 +1,6 @@
 # Game plan
 This file lists the steps taken to create my minimal Linux distro, plans, requirements and all things that I wish to accomplish.
-- [ ] Complete the LFS tutorial  
+- [x] Complete the LFS tutorial  
 I need to complete the LFS tutorial first to make sure I understand how a Linux distribution is created.
 - [ ] Complete the BLFS tutorial  
 Similarly to above, BLFS is an extension to LFS and discusses more advances features of a Linux distro, this step will be taken at the same
