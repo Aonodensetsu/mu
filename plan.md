@@ -12,7 +12,6 @@ The things listed below are features my distro cannot go without.
 - [ ] as small as possible
 - [ ] apt support
 - [ ] 64-bit multilib
-- [ ] raspberry pi
 # Requirements
 This is the section that goes into more detail about how each feature required is going to get accomplished.
 ### as small as possible
@@ -22,7 +21,5 @@ apt has several dependencies, therefore I will need to build them and make sure 
 choice
 ### 64-bit multilib
 I want to make sure lower-bit software is able to be used in my distro for compatibility reasons. I will make sure to include multilib for this purpose.
-### raspberry pi
-At first, the distro will be made for a regular PC, to be able to test it in a virtual machine with no architecture emulation, however the final target is a Pi, so I will create exactly the same system for the aarch64 afterwards.
 # Packages I want
-apt, bash, dhcpcd, wget
+apt, bash, dhcpcd, systemd, wget
