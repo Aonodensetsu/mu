@@ -1,12 +1,11 @@
 # Game plan
 This file lists the steps taken to create my minimal Linux distro, plans, requirements and all things that I wish to accomplish.
-- [x] Complete the LFS tutorial  
-I need to complete the LFS tutorial first to make sure I understand how a Linux distribution is created.
 - [ ] Complete the BLFS tutorial  
-Similarly to above, BLFS is an extension to LFS and discusses more advances features of a Linux distro, this step will be taken at the same
-time as further work is being done with designing the features I wish to include.
+BLFS is an extension to LFS and discusses more advances features of a Linux distro, this step will be taken at the same time as further work
+is being done with designing the features I wish to include.
 - [ ] Complete the multilib LFS tutorial  
-By default, LFS does not support running 32-bit (or lower) apps on a 64-bit system, and some apps might not have 64-bit versions. I will follow the multilib version of LFS to check how to enable support for lower-bit software on my distro.
+By default, LFS does not support running 32-bit (or lower) apps on a 64-bit system, and some apps might not have 64-bit versions. I will
+follow the multilib version of LFS to check how to enable support for lower-bit software on my distro.
 # Main features
 The things listed below are features my distro cannot go without.
 - [ ] as small as possible
